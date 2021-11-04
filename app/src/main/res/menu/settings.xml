@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Количество игроков">
+        <menu>
+            <item
+                android:id="@+id/two_settings"
+                android:title="2игорка" />
+            <item
+                android:id="@+id/three_settings"
+                android:title="3 игрока" />
+            <item
+                android:id="@+id/four_settings"
+                android:title="4 игрока" />
+            <item
+                android:id="@+id/eight_settings"
+                android:title="8 игрока" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/action_move"
+        android:title="Выбрать бутылку">
+        <menu>
+            <item
+                android:id="@+id/first_bottle"
+                android:title="Шампанское" />
+            <item
+                android:id="@+id/second_bottle"
+                android:title="Виски" />
+            <item
+                android:id="@+id/third_bottle"
+                android:title="Вино" />
+        </menu>
+
+    </item>
+</menu>
